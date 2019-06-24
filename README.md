@@ -3,8 +3,7 @@
 Shiny app address: https://jessiecui.shinyapps.io/final_version_4pm/
 
 
-This is a stock price and portfolio return visualization exercise, using the 
-daily stock price of all companies listed on SP500 from Feb 2013 to Feb 2018. 
+This is a stock price and portfolio return visualization exercise, using the daily stock price of all companies listed on SP500 from Feb 2013 to Feb 2018. 
 
 
 I will use Shiny to 
@@ -13,9 +12,6 @@ I will use Shiny to
 (3) Visualize stock volume using heatmap, and 
 (4) Visualize portfolio return based on different weights and 5 stocks of choice.
 
-
-
-This is a stock price and portfolio return visualization exercise, using the daily stock price and trading volume of all companies listed on SP500 from February 2013 to February 2018. I will use Shiny to display historical stock price trend, showcase stock price forecast, and visualize portfolio return based on different weights and 5 stocks of choice.
 
 (1) [Stock price trend]
 In this section, users are able to input the ticker of the company of their choice, select range of dates, and the type of price (open price / close price / high price / low price). The app will display the price using line chart to visualize the trend of stock price during the given time period.
