@@ -1,5 +1,8 @@
 # NYCDSA
 
+Shiny app address: https://jessiecui.shinyapps.io/final_version_4pm/
+
+
 This is a stock price and portfolio return visualization exercise, using the 
 daily stock price of all companies listed on SP500 from Feb 2013 to Feb 2018. 
 
