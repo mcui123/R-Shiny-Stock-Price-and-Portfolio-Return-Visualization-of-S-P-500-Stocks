@@ -1,0 +1,145 @@
+
+body
+   {
+     font-family: Georgia;
+     font-size: 12px;
+   }
+
+.main-header .logo {
+  font-family:  Georgia, Helvetica, Palatino;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.info-card {
+    position: relative;
+    width: 200;
+    height: 200;
+    color: #ffffff;
+
+    overflow: hidden;
+	padding: 10px;
+   # display: -webkit-box;
+   # display: -ms-flexbox;
+   # display: flex;
+   # -webkit-box-orient: horizontal;
+   # -webkit-box-direction: normal;
+   # -ms-flex-direction: row;
+   # flex-direction: row;
+   # -webkit-box-align: center;
+   # -ms-flex-align: center;
+  #  align-items: center;
+  #  padding: 0 2rem;
+  #  -webkit-transition: all .7s cubic-bezier(.34,1.25,.3,1);
+  #  transition: all .7s cubic-bezier(.34,1.25,.3,1);
+
+}
+.skin-purple.main-sidebar 
+   {
+	background-color: purple; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, purple, #D980F4);
+   }
+   
+ 
+        .skin-purple .main-header .logo {
+                              background-color: purple;
+                              }
+
+        /* logo when hovered */
+        .skin-purple .main-header .logo:hover {
+                              background-color: purple;
+                              }
+
+        /* navbar (rest of the header) */
+        .skin-purple .main-header .navbar {
+                              background-color: purple;
+                              }        
+
+        /* main sidebar */
+ .skin-purple .main-sidebar 
+    {
+      background-color: purple; 
+      background-image: linear-gradient(to right, purple, #D980F4);
+    }
+
+        /* active selected tab in the sidebarmenu */
+.skin-purple .main-sidebar .sidebar .sidebar-menu .active 
+   a{
+      background-color: purple; 
+      background-image: linear-gradient(to right, purple, #D980F4);
+    }
+
+        /* other links in the sidebarmenu */
+.skin-purple .main-sidebar .sidebar .sidebar-menu a{
+      background-color: purple; 
+      background-image: linear-gradient(to right, purple, #D980F4);
+                              }  
+   
+.info-card-text 
+   {
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+.info-card-sidemenu
+{
+	background-color: purple; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, purple, #D980F4);
+}	
+	
+
+.info-card .profile-image {
+    width: 3.125rem;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+.profile-image {
+    width: 3.125rem;
+    height: 3.125rem;
+	
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+
+
+.info-card img.cover {
+    #opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   position: absolute;
+    #height: absolute;
+	img {
+       #  width: 200;
+    height:200;
+}
+}
+
+.info-card img.cover {
+    background-size: cover;
+}
+
+.info-card img.cover {
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.info-card .info-card-text {
+    margin-left: 1rem;
+    color: inherit;
+    text-shadow: #000 0 1px;
+    z-index: 1;
+    position: relative;
+    line-height: normal;
+}
+

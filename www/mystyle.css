@@ -1,0 +1,84 @@
+
+body{
+  font-family: Georgia;
+}
+
+
+.info-card {
+    position: relative;
+    width: 19rem;
+    height: 15rem;
+    color: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 2rem;
+    -webkit-transition: all .7s cubic-bezier(.34,1.25,.3,1);
+    transition: all .7s cubic-bezier(.34,1.25,.3,1);
+}
+
+.info-card .profile-image {
+    width: 3.125rem;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+.profile-image {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.info-card img.cover {
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: auto;
+}
+
+.info-card img.cover {
+    background-size: cover;
+}
+
+.info-card img.cover {
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.info-card .info-card-text {
+    margin-left: 1rem;
+    color: inherit;
+    text-shadow: #000 0 1px;
+    z-index: 1;
+    position: relative;
+    line-height: normal;
+}
+
+.info-card-text {
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    line-height: 1.35;
+}
