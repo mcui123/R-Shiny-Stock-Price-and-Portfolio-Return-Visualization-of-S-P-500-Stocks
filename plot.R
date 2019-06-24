@@ -54,3 +54,5 @@ ggplot(snp_heat2,aes(x=year_month,y=Name,fill=ratiofactor))+
         plot.margin=margin(0.7,0.4,0.1,0.2,"cm"),
         plot.title=element_text(colour=textcol,hjust=0,size=14,face="bold"))
 dev.off()
+
+# updated 06.23.19
